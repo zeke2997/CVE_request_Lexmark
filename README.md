@@ -1,6 +1,15 @@
 # Vulnerability Overview
 
 A critical Improper Access Control (CWE-284) vulnerability has been identified in multiple Lexmark XM-series printer models (including XM5365 and XM7355). The affected devices expose web interfaces that lack authentication controls, enabling unauthenticated attackers to remotely execute malicious actions. Exploitation of this vulnerability could lead to unauthorized firmware modification, sensitive data leakage, and full compromise of printer functionality.
+
+## The following products and versions are affected:
+
+- XM7355 (Firmware: MXTGW.221.204)
+- MX522adhe (Firmware: MXTGM.081.215/MXTGM.240.207)
+- XC4150 (Firmware: CXTAT.221.204)
+- XM5365 (Firmware: MXTGW.081.234)
+
+
 # POC:
 ## Improper Access Control
 ![poc1.png](poc1.png)
